@@ -1,0 +1,2 @@
+add_executable(myFunctionsTest myfunctions_test.c myfunctions.c)
+target_link_libraries(myFunctionsTest PRIVATE tinytest)
